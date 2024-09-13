@@ -1,0 +1,136 @@
+body{
+  background-color: rgb(245, 161, 175);
+  color: rgb(137, 71, 17);
+  font-family: "Oleo Script", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  text-align: center;
+
+}
+
+.btn-simples{
+  font-size: 25px;
+  color: white;
+  padding: 90px 30px;
+  border-width: 5px;
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Wufe9Bn132FykzuFL4HdnQEnxBKyZVL8Ww&s) ;
+}
+
+.btn-festas{
+  font-size: 25px;
+  padding: 90px 30px;
+  border-width: 5px;
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYKcr8j7DJMMi_PQ_XUgsqgQQ1edlSsPK0oQ&s) ;
+}
+
+.btn-gluten{
+  font-size: 25px;
+  padding: 90px 30px;
+  border-width: 5px;
+  background-image:url(https://media.gazetadopovo.com.br/bomgourmet/2017/03/bolo-de-laranja-768x514-58a6a320.jpg);
+  
+}
+
+.btn-simples2{
+  font-size: 25px;
+  color: white;
+  padding: 70px 17px;
+  border-width: 5px;
+  background-image: url(https://mercado.carrefour.com.br/_next/image?url=https%3A%2F%2Fcarrefourbrfood.vtexassets.com%2Farquivos%2Fids%2F70737849%2Fbolo-fuba-e-goiabada-vegetal-aproximadamente-500g-1.jpg%3Fv%3D637971214370030000&w=256&q=75);
+}
+
+.btn-festas2{
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  padding: 70px 17px;
+  border-width: 5px;
+  background-image: url(https://mercado.carrefour.com.br/_next/image?url=https%3A%2F%2Fcarrefourbrfood.vtexassets.com%2Farquivos%2Fids%2F40638490%2F153354_1.jpg%3Fv%3D637829441929870000&w=256&q=75);
+  background-position: center;
+}
+
+.btn-chocolate{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding: 70px 16px;
+  border-width: 5px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgfYy4ShHzpU3ufNLXXtBqU4jyAMu2qO0jUA&s);
+  background-position: center;
+}
+
+.btn-simples3{
+  font-size: 25px;
+  color: white;
+  padding: 80px 15px;
+  border-width: 5px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtBu7lqciZTcapyqK49Ri-UdMbeApd7yXPZQ&s);
+}
+
+.btn-festas3{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding: 70px 17px;
+  border-width: 5px;
+  background-image: url(https://irp.cdn-website.com/33406c6e/dms3rep/multi/bolo-floresta-negra.jpg);
+  background-position: center;
+}
+
+.btn-chocolate2{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding: 70px 16px;
+  border-width: 5px;
+  background-image: url(https://storage.googleapis.com/grandchef-apps/gc12025/images/products/6409e0b41f68c.jpg);
+  background-position: center;  
+}
+
+.btn-simples4{
+  font-size: 25px;
+  color: white;
+  padding: 80px 15px;
+  border-width: 5px;
+  background-image: url(https://www.robertaferraz.com.br/wp-content/uploads/2017/05/limaovovo.jpg);
+}
+
+.btn-festas4{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding: 70px 17px;
+  border-width: 5px;
+  background-image: url(https://conteudo.imguol.com.br/c/entretenimento/1c/2020/05/12/bolo-de-banana-sem-gluten-e-zero-acucar-1589309946687_v2_300x400.jpg);
+  background-position: center;
+}
+
+.btn-chocolate3{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  padding: 70px 16px;
+  border-width: 5px;
+  background-image: url(https://marcelohorta.com/wp-content/uploads/2023/07/bolo-sem-gluten.webp);
+  background-position: center;  
+}
+
+.passo{
+  display: none;
+}
+
+.passo.ativo{
+  display: block;
+}
+
+main{
+  max-width: 90%;
+  text-align: center;
+}
+
+img{
+  max-width: 45%;
+}
+
+.btn-simples2{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-64gTlUGPjjmRJdNsaqyvbnxAlwG0ieXUgA&s);
+}

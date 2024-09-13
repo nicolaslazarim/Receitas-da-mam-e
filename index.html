@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chefa's Cake</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="confeitaria.jpg" alt="">
+            <p>
+                Esse é o site da Dona Erica, Para que tipo de ocasião você quer o seu bolo?
+            </p>
+            <button class="btn-proximo btn-simples" data-proximo="1">
+                Bolos simples
+            </button>
+            <button class="btn-proximo btn-festas" data-proximo="2">
+                Bolo de Festas
+            </button>
+            <button class="btn-proximo btn-gluten" data-proximo="3">
+                Bolo sem glutén
+            </button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>
+                Esse é o site da Dona Erica, Para que tipo de ocasião você quer o seu bolo?
+            </p>
+            <button class="btn-proximo btn-simples2" data-proximo="4">
+              Fubá c/ goiabada
+            </button>
+            <button class="btn-proximo btn-festas2" data-proximo="5">
+                Bolo de Milho
+            </button>
+            <button class="btn-proximo btn-chocolate" data-proximo="6">
+                Bolo de chocolate
+            </button>
+            <button onclick="goToHomePage()">Voltar à Página Inicial</button>
+
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>
+                Esse é o site da Dona Erica, Para que tipo de ocasião você quer o seu bolo?
+            </p>
+            <button class="btn-proximo btn-simples3" data-proximo="7">
+              Morango c/ Chantily
+            </button>
+            <button class="btn-proximo btn-festas3" data-proximo="8">
+                Bolo Floresta Negra
+            </button>
+            <button class="btn-proximo btn-chocolate2" data-proximo="9">
+                Bolo Ninho com Brigadeiro
+            </button>
+
+            <button onclick="goToHomePage()">Voltar à Página Inicial</button>
+
+
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>
+                Esse é o site da Dona Erica, Para que tipo de ocasião você quer o seu bolo?
+            </p>
+            <button class="btn-proximo btn-simples4" data-proximo="10">
+              Bolo de Limão s/ Glutén
+            </button>
+            <button class="btn-proximo btn-festas4" data-proximo="11">
+                Bolo de Banana s/ Glutén
+            </button>
+            <button class="btn-proximo btn-chocolate3" data-proximo="12">
+                Bolo de Chocolate s/ Glutén
+            </button>
+
+            <button onclick="goToHomePage()">Voltar à Página Inicial</button>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
+
